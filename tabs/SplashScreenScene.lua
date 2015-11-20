@@ -14,7 +14,7 @@ local moveForwardButton
 function SplashScreenScene:init()
 
     --sprite("iOS Button Pack:Blue Level Menu Button")
-    moveForwardButton = Button("iOS Button Pack:Blue Forward Circle Button", vec2(WIDTH/2, HEIGHT/2))
+    moveForwardButton = Button("Dropbox:Blue Forward Circle Button", vec2(WIDTH/2, HEIGHT/2))
 end
 
 function SplashScreenScene:draw()
